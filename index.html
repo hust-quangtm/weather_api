@@ -110,22 +110,22 @@
             if (todayStatus == 3)
             {
                 document.getElementById(blockId).innerText = "雨・曇"
-                $(imgID).attr('src', '../WeatherStack/image/rain.png');
+                $(imgID).attr('src', '../image/rain.png');
             }
             else if (todayStatus == 2)
             {
                 document.getElementById(blockId).innerText = "雨"
-                $(imgID).attr({src: '../WeatherStack/image/rain.png', style: 'width: 57%'});
+                $(imgID).attr({src: '../image/rain.png', style: 'width: 57%'});
             }
             else if (todayStatus == 1)
             {
                 document.getElementById(blockId).innerText = "曇"
-                $(imgID).attr('src', '../WeatherStack/image/cloud.png');
+                $(imgID).attr('src', '../image/cloud.png');
             } 
             else
             {
                 document.getElementById(blockId).innerText = "晴";
-                $(imgID).attr({src: '../WeatherStack/image/sun.png', style: 'width: 54%'});
+                $(imgID).attr({src: '../image/sun.png', style: 'width: 54%'});
             }
         }
         const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=35.69&longitude=139.70&hourly=rain,cloudcover&past_days=3&forecast_days=3&timezone=Asia%2FTokyo`;

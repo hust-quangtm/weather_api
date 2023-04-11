@@ -1,10 +1,10 @@
 @font-face {
     font-family: japaneseFont;
-    src: url("../WeatherStack/font/Yomogi-Regular.ttf");
+    src: url("../font/Yomogi-Regular.ttf");
   }
   
 .main {
-    background-image: url('../WeatherStack/image/backgr.gif');
+    background-image: url('../image/backgr.gif');
 }
 
 h1, h5, p {
